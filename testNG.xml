@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestNgParametersSuite" parallel="false">
+    <test name="TestCase_1">
+        <classes>
+            <parameter name="valueToDecode" value="MDExMQ=="></parameter>
+            <parameter name="expectedResult" value="0111"></parameter>
+            <class name="TestWithParameters"/>
+        </classes>
+    </test>
+    <test name="TestCase_2">
+        <parameter name="valueToDecode" value="NDgwMDA="></parameter>
+        <parameter name="expectedResult" value="48000"></parameter>
+        <classes>
+            <class name="TestWithParameters"/>
+        </classes>
+    </test>
+    <test name="TestCase_3">
+        <parameter name="valueToDecode" value="MjExMDQy"></parameter>
+        <parameter name="expectedResult" value="211042"></parameter>
+        <classes>
+            <class name="TestWithParameters"/>
+        </classes>
+    </test>
+    <test name="TestCase_4">
+        <parameter name="valueToDecode" value="aDAwMDAw"></parameter>
+        <parameter name="expectedResult" value="h00000"></parameter>
+        <classes>
+            <class name="TestWithParameters"/>
+        </classes>
+    </test>
+    <test name="TestCase_5">
+        <parameter name="valueToDecode" value="MTAxMDA="></parameter>
+        <parameter name="expectedResult" value="10100"></parameter>
+        <classes>
+            <class name="TestWithParameters"/>
+        </classes>
+    </test>
+</suite>
